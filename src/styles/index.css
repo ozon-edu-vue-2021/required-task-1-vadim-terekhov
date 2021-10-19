@@ -36,7 +36,8 @@ button:disabled:hover {
     background-color: #CFD8DC;
 }
 
-main {
+.main {
+    position: relative;
     max-width: 1400px;
     min-height: 100%;
     display: flex;
@@ -56,6 +57,8 @@ main {
     padding: 10px 20px;
     border-radius: 6px;
     margin: 10px 0;
+    align-self: center;
+    transition: background-color .5s;
 }
 
 .action:hover {
@@ -131,9 +134,10 @@ figcaption {
 
 .popup.open {
     visibility: visible;
+    z-index: 1;
 }
 
-.action {
+.popup .close {
     position: absolute;
     top: 50px;
     right: 50px;
