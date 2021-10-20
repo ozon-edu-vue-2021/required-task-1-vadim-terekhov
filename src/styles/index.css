@@ -101,17 +101,17 @@ a:nth-child(3n) {
     column-count: initial;
 }
 
-figure {
+.figura {
     max-width: 100%;
     min-height: 350px;
     margin: 0;
 }
 
-figure img {
+.figura-img {
     border-radius: 6px;
 }
 
-figcaption {
+.figura-caption {
     color: #424242;
     margin: 5px 0;
 }
